@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    stages {
         stage('Getting Current date and time') {
             steps {
                 script{
@@ -12,3 +13,4 @@ pipeline {
             }
         }
     }
+}
